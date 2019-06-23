@@ -1,0 +1,18 @@
+.xanh{
+	max-width: 100px;
+	margin: 5px;
+	padding: 3px 20px;
+	background-color: #88FF88;
+	float: left;
+}
+
+.do{
+	max-width: 100px;
+	margin: 5px;
+	padding: 3px 20px;
+	background-color: #FF6666;
+	float: left;
+}
+.cke_contents_param_mo_ta iframe{
+	min-height: 500px;
+}

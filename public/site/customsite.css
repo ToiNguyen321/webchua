@@ -1,0 +1,166 @@
+.logo a img{
+	width: 250px;
+}
+
+.breakpoint-off .classynav ul li .dropdown.ds_sukien{
+	width: 810px;
+	left: -250%;
+}
+.breakpoint-off .classynav ul li .dropdown.ds_sukien li{
+	box-sizing: border-box;
+	min-width: 265px;
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 0;
+}
+.breakpoint-off .classynav ul li .single-mega.ds_tinh li{
+	box-sizing: border-box;
+	min-width: 150px;
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 0;
+}
+.breakpoint-on .classynav ul li.has-down>a::after, .breakpoint-on .classynav ul li.megamenu-item>a::after{
+	top: 30%;
+}
+/**
+Custom form login
+*/
+
+.form-dang-nhap {
+    margin: 100px 0 150px 0;
+}
+.form-dang-nhap .title-login {
+	font-size: 140%;
+    color: #fff;
+    background-color: #ee002d;
+    border-color: #ee002d;
+}
+.form-dang-nhap .form-control:focus{
+	color: #495057;
+    background-color: #fff;
+    border-color: #ee002d;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(249, 0, 12, 0.92);
+}
+.form-dang-nhap button{
+	background-color: #ee002d;
+	color: #fff;
+}
+
+.dang-nhap-binh-luan h4{
+	transition: 0.4s;
+}
+.dang-nhap-binh-luan h4:hover{
+	color: #ee002d;
+}
+
+/*CUSTOM FORM TÌM KIẾM*/
+#search{
+	padding: 11px 0 11px 5px;
+    border-radius: 5px;
+    background: #ee002d;
+    color: white;
+    font-size: 12px;
+    border: 1px solid;
+    font-style: italic;
+    transition: 0.3s;
+}
+#search:hover{
+	cursor: pointer;
+}
+#search option{
+	font-size: 14px;
+	margin: 15px;
+}
+.header-area .top-header-area .login-search-area .search-form form{
+	width: 300px;
+}
+.header-area .top-header-area .login-search-area .search-form form input[type="search"]{
+	width: 180px;
+    float: right;
+}
+
+/**
+Custom panigaton
+*/
+nav.Panigation{
+	margin-top: 50px;
+}
+nav.Panigation a,nav.Panigation strong{
+	color: #000;
+	line-height: 38px;
+	position: relative;
+	width: 38px;
+	height: 38px;
+	font-size: 120%;
+	text-align: center;
+    display: inline-block;
+}
+
+#banner{
+	float: right;
+	width: 100%;
+	position: absolute;
+	transition: 0.2s;
+}
+/*#banner .banner{
+	position: absolute;
+	top:50%;
+}*/
+nav.Panigation strong, nav.Panigation a:hover{
+	background-color: #152535;
+    color: #fff;
+}
+small #error.form-text.text-muted{
+	color: red!important;
+}
+
+
+@media only screen and (max-width:1220px){
+
+}
+@media only screen and (max-width:991px){	
+	.breakpoint-on .classynav ul li .megamenu li{
+		width: 49%;
+    	display: inline-block;
+	}
+	#banner{
+		display: none;
+	}
+}
+
+@media only screen and (max-width:767px){	
+	.header-area .top-header-area .login-search-area .search-form form{
+		width: 290px;
+	}
+}
+@media only screen and (max-width:480px){
+	.header-area .top-header-area .login-search-area .search-form form{
+		width: 235px;
+	}
+	.header-area .top-header-area .login-search-area .search-form form input[type="search"]{
+		width: 130px;
+   		float: right;
+	}
+	.footer-area .footer-widget-area .list.m-3 li a h6{
+        color: #fff;
+        font-size: 100%;
+    }
+	
+}
+
+@media only screen and (max-width:360px){	
+	.header-area .top-header-area .login-search-area .search-form form{
+		width: 100%;
+	}
+	.header-area .top-header-area .login-search-area .search-form form #search{
+		display: none;
+	}
+	.header-area .top-header-area .login-search-area .search-form form input[type="search"]{
+		width: 100%;
+   		float: left;
+	}
+}
+
+

@@ -1,0 +1,5 @@
+Link admin :  http://domain/admin
+Tai Khoan ADMIN.
+tk: admin@gmail.com
+mk: 123456
+

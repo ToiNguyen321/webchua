@@ -1,0 +1,100 @@
+.logo a img{
+	width: 250px;
+}
+
+.breakpoint-off .classynav ul li .dropdown.ds_sukien{
+	width: 800px;
+	left: -100%;
+}
+.breakpoint-off .classynav ul li .single-mega.ds_tinh li,.breakpoint-off .classynav ul li .dropdown.ds_sukien li{
+	box-sizing: border-box;
+	min-width: 150px;
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 0;
+}
+.breakpoint-on .classynav ul li.has-down>a::after, .breakpoint-on .classynav ul li.megamenu-item>a::after{
+	top: 30%;
+}
+/**
+Custom form login
+*/
+
+.form-dang-nhap {
+    margin: 100px 0 150px 0;
+}
+.form-dang-nhap .title-login {
+	font-size: 140%;
+    color: #fff;
+    background-color: #ee002d;
+    border-color: #ee002d;
+}
+.form-dang-nhap .form-control:focus{
+	color: #495057;
+    background-color: #fff;
+    border-color: #ee002d;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(249, 0, 12, 0.92);
+}
+.form-dang-nhap button{
+	background-color: #ee002d;
+	color: #fff;
+}
+
+
+
+/**
+Custom panigaton
+*/
+nav.Panigation{
+	margin-top: 50px;
+}
+nav.Panigation a,nav.Panigation strong{
+	color: #000;
+	line-height: 38px;
+	position: relative;
+	width: 38px;
+	height: 38px;
+	font-size: 120%;
+	text-align: center;
+    display: inline-block;
+}
+
+#banner{
+	float: right;
+	width: 100%;
+	position: absolute;
+	transition: 0.2s;
+}
+/*#banner .banner{
+	position: absolute;
+	top:50%;
+}*/
+nav.Panigation strong, nav.Panigation a:hover{
+	background-color: #152535;
+    color: #fff;
+}
+small #error.form-text.text-muted{
+	color: red!important;
+}
+
+@media only screen and (max-width:1220px){
+
+}
+@media only screen and (max-width:991px){	
+	.breakpoint-on .classynav ul li .megamenu li{
+		width: 49%;
+    	display: inline-block;
+	}
+	#banner{
+		display: none;
+	}
+}
+@media only screen and (max-width:480px){
+	.header-area .top-header-area .login-search-area .login a.xinchao{
+		/*display: none;*/
+	}
+	
+}
+
+
